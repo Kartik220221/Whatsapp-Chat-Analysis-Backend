@@ -11,7 +11,7 @@ df = None
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://whatsapp-chat-analysis-frontend.vercel.app"],  # You can set specific origins like ["http://localhost:3000"]
+    allow_origins=["https://whatsapp-chat-analysis-frontend-zvv.vercel.app"],  # You can set specific origins like ["http://localhost:3000"]
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
